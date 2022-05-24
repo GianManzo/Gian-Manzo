@@ -71,7 +71,7 @@ const scrollReveal = ScrollReveal({
 scrollReveal.reveal(
   `#home__desktop, #about,
   #sectionTechnologies, #sectionProjects,
-  #contact, #footer
+  #contact
 `,
   { interval: 100 }
 )

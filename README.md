@@ -45,7 +45,7 @@ This portfolio is a responsive one page to be used on several computers, where I
 
 ## 🔖 Layout
 
-You can view the layout of the project through [from this link](https://www.figma.com/community/file/1009807319507822993/Origin-Six). or download the files, open in a preferred editor and run the .html file
+You can view the layout of the project through [from this link](https://manzogian.netlify.app/). or download the files, open in a preferred editor and run the .html file
 
 ## 📝 License
 

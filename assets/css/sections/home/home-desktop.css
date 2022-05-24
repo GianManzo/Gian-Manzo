@@ -1,0 +1,50 @@
+.thrusters {
+  animation: thrusters 0.1s infinite;
+}
+
+@keyframes thrusters {
+  0% {
+    filter: drop-shadow(10px 0 2px #ffff);
+    transform: translateY(-1px);
+  }
+  25% {
+    filter: drop-shadow(0 0 3px #0000);
+    transform: translateY(1px);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 2px #ffff);
+    transform: translateY(-1px);
+  }
+  75% {
+    filter: drop-shadow(0 0 3px #0000);
+    transform: translateY(1px);
+  }
+}
+
+.stars {
+  animation: stardown 0.3s infinite;
+}
+
+@keyframes stardown {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(50px);
+    transform: translateX(50px);
+  }
+}
+
+.home__desktop {
+  display: none;
+}
+#nav .iconsHome li .activeMenu i,
+#nav .iconsHome li .activeMenu span {
+  color: var(--color-primary);
+}
+@media (min-width: 1200px) {
+  .home__desktop {
+    display: flex;
+  }
+}

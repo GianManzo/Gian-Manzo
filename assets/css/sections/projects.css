@@ -1,0 +1,17 @@
+.carousel {
+  filter: drop-shadow(0 0 15px var(--color-primary));
+  opacity: 70%;
+}
+.carousel-inner {
+  border-radius: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--color-primary);
+}
+
+@media (min-width: 1200px) {
+  .projects {
+    margin-top: 10rem;
+  }
+}

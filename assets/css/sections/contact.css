@@ -1,0 +1,29 @@
+.phone {
+  background-image: url('/assets/img/phone.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 42.125rem;
+  width: 100%;
+}
+.contact .box-img {
+  height: 6.25rem;
+  width: 6.5rem;
+}
+
+.contact .img-contact {
+  width: 100%;
+  height: 100%;
+}
+
+.contact span {
+  margin-left: 0.75rem;
+  vertical-align: 15%;
+}
+.illustration-contact {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .illustration-contact {
+    display: block;
+  }
+}

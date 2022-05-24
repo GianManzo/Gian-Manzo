@@ -1,0 +1,23 @@
+.about-desktop {
+  display: none;
+}
+.about-desktop span {
+  color: #fff;
+}
+@media (min-width: 1200px) {
+  .about-desktop {
+    display: grid;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+  .collapse.show p,
+  .collapsing p {
+    color: #fff;
+    display: table-caption;
+    width: 18.75rem;
+  }
+  .box-collapse a {
+    color: var(--color-primary);
+  }
+}

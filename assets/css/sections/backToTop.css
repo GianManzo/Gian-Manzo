@@ -1,0 +1,15 @@
+#btnTop {
+  bottom: 1rem;
+  opacity: 0;
+  position: fixed;
+  right: 2.5rem;
+  transform: translateY(100%);
+  transition: 200ms;
+  visibility: hidden;
+}
+
+#btnTop.show {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}

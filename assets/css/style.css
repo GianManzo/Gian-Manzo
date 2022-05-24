@@ -1,0 +1,117 @@
+:root {
+  --hue: 272;
+  --background--body: hsl(var(--hue) 0% 7%);
+  --background--container: hsl(var(--hue) 0% 12%);
+
+  --color-primary: hsl(var(--hue) 68% 44%);
+  --color-primary-strong: hsl(var(--hue) 38% 25%);
+  --secondary-color: hsl(var(--hue) 49% 37%);
+  --subtitle: hsl(var(--hue) 19% 77%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--background--body);
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #46287b;
+  border-radius: 10px;
+}
+body {
+  background: var(--background--body);
+  font-family: 'Dm Sans', sans-serif;
+}
+body.theme,
+body.theme #container {
+  background: #8e9aaf;
+}
+body.theme .menu-desktop,
+body.theme .body-desktop {
+  background: #dee2e6;
+}
+body.theme h1,
+body.theme #container p,
+body.theme #box-theme i,
+body.theme .iconsHome span,
+body.theme .iconsHome i,
+body.theme span:not(.infos span) {
+  color: black;
+}
+body.theme #box-theme i {
+  opacity: 100%;
+}
+#container {
+  background-color: var(--background--container);
+  height: 100%;
+  width: 100%;
+}
+
+.section-title {
+  color: var(--color-primary);
+  margin: 1.687rem 0 3.125rem 0;
+}
+
+.subtitle {
+  color: var(--subtitle);
+  font-size: 1rem;
+  margin: 0;
+  opacity: 70%;
+}
+
+input.form-check-input:checked {
+  background-color: var(--color-primary);
+  border-color: var(--secondary-color);
+  box-shadow: none;
+}
+input.form-check-input:focus {
+  box-shadow: none;
+}
+.bi.bi-sun,
+.bi.bi-moon-fill {
+  color: #b8c4cf;
+  opacity: 30%;
+}
+a {
+  text-decoration: none;
+}
+
+.line {
+  border-bottom: 1px solid var(--subtitle);
+  opacity: 20%;
+  width: 16.625rem;
+}
+
+.line--purple {
+  border-bottom: 1px solid var(--secondary-color);
+  margin-top: 4.312rem;
+  margin-inline: 0;
+  opacity: 50%;
+  width: 100%;
+}
+.contact i,
+.home i {
+  color: var(--color-primary);
+  font-size: 1.562rem;
+}
+
+@media (min-width: 1200px) {
+  #container {
+    background: var(--background--body);
+    display: flex;
+    gap: 1rem;
+  }
+
+  #contact,
+  .home__desktop {
+    height: 100vh;
+  }
+  .menu-desktop,
+  .body-desktop {
+    background-color: var(--background--container);
+  }
+}

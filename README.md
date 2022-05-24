@@ -12,8 +12,8 @@
 <br>
 
 <p align="center">
-  <img alt="/assets/img/preview-desktop.png" src=".github/preview.png" width="100%">
-  <img alt="/assets/img/preview-mobile.png" src=".github/preview.png" width="100%">
+  <img alt="preview desktop" src="/assets/img/preview-desktop.png" width="100%">
+  <img alt="preview mobile" src="/assets/img/preview-mobile.png" width="100%">
 </p>
 
 ## 🚀 Tecnologies

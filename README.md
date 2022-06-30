@@ -1,20 +1,21 @@
+
+<h2 align="center">
+   ⚠️ I'm updating for new features with technologies: React,
+styled-components...
+ </h2> 
 <p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-License">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
-</p>
+
+![Design sem nome (18)](https://user-images.githubusercontent.com/89868792/176734441-a84c3901-4f4e-4699-b3d3-f0bf77964c7f.png)
+
 
 <br>
 
-<p align="center">
-  <img alt="preview" src="/assets/img/preview.png" width="100%">
-  
-</p>
 
 ## 🚀 Tecnologies
 
